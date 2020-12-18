@@ -1,0 +1,24 @@
+{
+  "name": "update-open-prs-action",
+  "version": "1.0.0",
+  "description": "Update open pull requests when a new milestone is created with the new milestone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klporter/update-open-prs-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klporter/update-open-prs-action/issues"
+  },
+  "homepage": "https://github.com/klporter/update-open-prs-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^3.0.0"
+  }
+}
